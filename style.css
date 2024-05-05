@@ -1,0 +1,250 @@
+
+h1 {
+    margin: 0;
+}
+
+/* <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700 */
+
+.dancing-script {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+
+
+body {
+    display: flex; 
+    flex-direction: column;   
+    margin: 0;
+    gap: 3rem;
+    
+}
+
+.flex-headNav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0;
+    height: 40px;
+    background-color: black;
+    gap: 10px;
+    a{
+        color: white;
+    }
+}
+
+
+
+.flex-headerMain {
+
+    display: flex;
+    flex-wrap: wrap;    
+    
+    align-items: flex-start;
+    justify-content:left;
+    gap: 0;
+    font-size: 2rem;
+    font-family: roboto-light;   
+    background-color: white; 
+
+    h1 {
+        /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+       
+        font-size: 4vw;
+        letter-spacing: 1rem;
+        font-stretch: expanded;
+        text-wrap:nowrap;
+    }
+
+    p {
+        margin: 0;
+    }
+}
+
+.flex-innerC {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.flex-headIner {
+    display: flex;
+    flex-direction: column;
+       
+    margin-top: 1.3em;
+
+    border: 1px solid black;
+    border-left: 140px solid transparent;
+    border-right: 140px solid transparent;
+
+}
+
+    
+ul.bodyList{
+    margin: 0;
+    padding: 0;
+    gap: 0;
+
+}
+
+
+.flex-bodyHead {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    font-size: 2.5vw;
+    background-color: brown;
+
+    font-family: roboto-light;    
+    
+    p {
+
+
+        
+        color: white;
+    }
+}
+
+
+.flex-body{
+    display: flex;
+    flex-direction: column;
+    
+
+    /* align Body */
+    align-items:flex-end;
+}
+
+
+.flex-bodyPar {
+    /* margin: 6rem; */
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+    text-indent: 3em;
+    width: 70%;
+    padding-left: 50px;
+
+    background-color: beige;
+    font-family: roboto-light;    
+    
+    p {
+        margin-right: 100px;
+        
+    }
+}
+
+.flexMidbody {
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    text-align: center;
+
+    /* align Body */
+    align-items:center;
+    
+    font-family: roboto-light;    
+    font-size: 2em;
+    padding-bottom: 15px;
+}
+
+
+.flex-pricesBar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-wrap:nowrap;
+
+    
+}
+
+.flex-pricesBarInner {
+    
+    margin-left: 15px;
+    font-size: large;
+    
+    p {
+        text-align: center;
+        margin: 0;
+        font-family: roboto-regular;    
+    }
+    
+}
+
+.icenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40px;
+  }
+.boxBorder {
+	width: 30vw;
+	font-size: 1em;
+	line-height: 1.5em;
+	font-weight: 200;
+	padding: 0 4vw 4vw;
+	border-right: 2px;
+	border-left: 0;
+	border-style: solid;
+/* 	border-image: linear-gradient(to bottom, #ccc, #555 66%, #181818) 1 100%; */
+	border-image: linear-gradient(to bottom, white, black, white) 1 100%;
+}
+
+.contactForm {
+    width: 700px;
+    
+    p{
+        text-align: center;
+        font-family: roboto-bold ;
+        margin: 0;
+    }
+}
+
+.flex-bodyClose {
+    display: flex;
+    flex-direction: column;
+    background-color: beige;
+    text-align: left;
+    /* align Body */
+    align-items:left;
+    margin-left: 10px;
+    font-family: roboto-light;    
+    font-size: 1.5em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    p {
+        margin: 0;
+    }
+
+}
