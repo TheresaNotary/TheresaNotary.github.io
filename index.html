@@ -195,7 +195,7 @@
                             // Calculate distance using Haversine formula
                             const distance = haversine(startLocation.lat(), startLocation.lng(), endLocation.lat(), endLocation.lng());
                             
-                            document.getElementById("totalDistance").innerHTML = "Total distance: " +  Math.round(( (distance.toFixed(2) * 3) + Number.EPSILON)*100)/100 + "$ )price not shown error miles";
+                            document.getElementById("totalDistance").innerHTML = "Estimate travel fee" +  Math.round(( (distance.toFixed(2) * 3) + Number.EPSILON)*100)/100 + "$ )price not shown error miles";
                         } else {
                             alert("Geocode was not successful for the following reason: " + status2);
                         }
